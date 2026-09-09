@@ -1,0 +1,1 @@
+import{i as e,t}from"./btpanel-panel-business-runtime-lib.js?v=1780568589";var n={...t,useCreateRouterEach:e},r=`@btpanel/panel-business/router`,i=n;export{r as name,i as provider};

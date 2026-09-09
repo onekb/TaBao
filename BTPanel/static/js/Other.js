@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./btpanel-ui-lib.js?v=1780568589";var n={...t,BtDivider:e},r=`@btpanel/ui/other`,i=n;export{r as name,i as provider};

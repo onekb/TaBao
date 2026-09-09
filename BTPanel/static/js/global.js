@@ -1,0 +1,1 @@
+import{Sr as e,ei as t,er as n,xi as r}from"./btpanel-panel-business-store-lib.js?v=1780568589";var i={...t,getPluginFindInfo:e,saveFileBody:r,getFileContent:n},a=`@btpanel/panel-business/api/global`,o=i;export{a as name,o as provider};

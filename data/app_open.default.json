@@ -1,0 +1,310 @@
+{
+  "apps": {
+    "editor": { "name": "Atom Editor", "cmd": "Edit", "icon": "edit" },
+    "monaco": { "name": "Monaco Editor", "cmd": "Monaco", "icon": "code" },
+    "preview": { "name": "图片预览", "cmd": "Preview", "icon": "image" },
+    "player": { "name": "视频播放", "cmd": "Play", "icon": "video" }
+  },
+  "formats": {
+    "txt": {
+      "name": "文本文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "md": {
+      "name": "Markdown",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "json": {
+      "name": "JSON 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "xml": {
+      "name": "XML 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "yml": {
+      "name": "YAML 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "yaml": {
+      "name": "YAML 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "conf": {
+      "name": "配置文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "cfg": {
+      "name": "配置文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "ini": {
+      "name": "INI 配置",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "env": {
+      "name": "环境变量",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "nginx": {
+      "name": "Nginx 配置",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "html": {
+      "name": "HTML 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "css": {
+      "name": "CSS 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "js": {
+      "name": "JavaScript",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "ts": {
+      "name": "TypeScript",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "jsx": {
+      "name": "JSX 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "tsx": {
+      "name": "TSX 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "vue": {
+      "name": "Vue 组件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "php": {
+      "name": "PHP 脚本",
+      "group": ["code", "script"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "py": {
+      "name": "Python 脚本",
+      "group": ["code", "script"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "sh": {
+      "name": "Shell 脚本",
+      "group": ["code", "script"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "bash": {
+      "name": "Bash 脚本",
+      "group": ["code", "script"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "zsh": {
+      "name": "Zsh 脚本",
+      "group": ["code", "script"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "sql": {
+      "name": "SQL 文件",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "gitignore": {
+      "name": "Git 忽略规则",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "dockerfile": {
+      "name": "Dockerfile",
+      "group": ["code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "log": {
+      "name": "日志文件",
+      "group": ["text", "code"],
+      "apps": ["editor", "monaco"],
+      "app_id": ""
+    },
+    "mp4": {
+      "name": "MP4 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "avi": {
+      "name": "AVI 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "mov": {
+      "name": "MOV 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "mkv": {
+      "name": "MKV 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "webm": {
+      "name": "WebM 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "mpeg": {
+      "name": "MPEG 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "mpg": {
+      "name": "MPG 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "rmvb": {
+      "name": "RMVB 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "wmv": {
+      "name": "WMV 视频",
+      "group": ["video"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "mp3": {
+      "name": "MP3 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "wma": {
+      "name": "WMA 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "wav": {
+      "name": "WAV 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "flac": {
+      "name": "FLAC 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "aac": {
+      "name": "AAC 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "ogg": {
+      "name": "OGG 音频",
+      "group": ["audio"],
+      "apps": ["player"],
+      "app_id": "player"
+    },
+    "png": {
+      "name": "PNG 图片",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "jpg": {
+      "name": "JPEG 图片",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "jpeg": {
+      "name": "JPEG 图片",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "gif": {
+      "name": "GIF 图片",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "webp": {
+      "name": "WebP 图片",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "bmp": {
+      "name": "BMP 位图",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "svg": {
+      "name": "SVG 矢量图",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    },
+    "ico": {
+      "name": "ICO 图标",
+      "group": ["image"],
+      "apps": ["preview", "monaco"],
+      "app_id": "preview"
+    }
+  }
+}

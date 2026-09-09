@@ -1,0 +1,1 @@
+import{T as e,b as t}from"./btpanel-hooks-lib.js?v=1780568589";import{f as n,l as r,o as i}from"./btpanel-ui-lib.js?v=1780568589";var a={...i,BtDialog:e,BtDialogV2:n,BtConfirm:t,BtResult:r},o=`@btpanel/ui/feedback`,s=a;export{o as name,s as provider};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./btpanel-ui-echarts-runtime-lib.js?v=1780568589";var n={...e,loadEchartsRuntime:t},r=`@btpanel/ui/data/bt-echart/runtime`,i=n;export{r as name,i as provider};

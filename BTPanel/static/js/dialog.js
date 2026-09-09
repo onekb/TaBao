@@ -1,0 +1,1 @@
+import{It as e,Pt as t}from"./btpanel-hooks-lib.js?v=1780568589";var n={...e,DialogHost:t},r=`@btpanel/hooks/feedback/dialog`,i=n;export{r as name,i as provider};

@@ -1,0 +1,1 @@
+import{T as e,w as t}from"./btpanel-panel-business-components-lib.js?v=1780568589";var n={...e,marked:t},r=`marked`,i=n;export{r as name,i as provider};

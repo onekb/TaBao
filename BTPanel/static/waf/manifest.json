@@ -1,0 +1,274 @@
+{
+  "protocol": "btpanel-waf-esm-v1",
+  "name": "waf",
+  "version": "1.0.0",
+  "entry": "assets/waf-entry.js?v=2026-06-04T10%3A27%3A19.389Z",
+  "styles": [
+    "assets/waf.css?v=2026-06-04T10%3A27%3A19.389Z"
+  ],
+  "minPanelVersion": "10.0.0",
+  "platformApiVersion": "1",
+  "sharedContractVersion": "1",
+  "requiredCapabilities": [
+    "core",
+    "runtime",
+    "theme",
+    "storage",
+    "request",
+    "feedback.message",
+    "feedback.dialog",
+    "charts.basic",
+    "charts.map",
+    "vue.directives",
+    "panel-business.runtime",
+    "panel-business.router",
+    "panel-business.store",
+    "panel-business.hooks-tools",
+    "panel-business.hooks-form-item",
+    "panel-business.hooks-router-tabs",
+    "panel-business.api-global",
+    "panel-business.services-popup",
+    "ui.base",
+    "ui.data",
+    "ui.form",
+    "ui.feedback",
+    "ui.navigation",
+    "ui.other",
+    "panel-extension-runtime"
+  ],
+  "requiredSharedPackages": [
+    "@btpanel/core",
+    "@btpanel/core/date",
+    "@btpanel/core/format",
+    "@btpanel/core/type",
+    "@btpanel/hooks",
+    "@btpanel/hooks/charts",
+    "@btpanel/hooks/charts/data/world",
+    "@btpanel/hooks/tabs",
+    "@btpanel/panel-business/api/global",
+    "@btpanel/panel-business/components/extension/bt-editor",
+    "@btpanel/panel-business/components/extension/bt-log/index.vue",
+    "@btpanel/panel-business/components/other/bt-ai-tips/index.vue",
+    "@btpanel/panel-business/hooks/form/form-item",
+    "@btpanel/panel-business/hooks/router-tabs",
+    "@btpanel/panel-business/hooks/tools",
+    "@btpanel/panel-business/hooks/tools/table/column",
+    "@btpanel/panel-business/runtime",
+    "@btpanel/panel-business/services/popup",
+    "@btpanel/panel-business/store/global",
+    "@btpanel/panel-extension-runtime",
+    "@btpanel/runtime/storage",
+    "@btpanel/runtime/theme",
+    "@btpanel/ui/base",
+    "@btpanel/ui/data",
+    "@btpanel/ui/data/bt-echart/runtime",
+    "@btpanel/ui/form",
+    "@btpanel/ui/other",
+    "@vueuse/core",
+    "element-plus",
+    "element-plus/es",
+    "pinia",
+    "vue"
+  ],
+  "requiredSharedExports": {
+    "@btpanel/core": [
+      "getPageTotal"
+    ],
+    "@btpanel/core/date": [
+      "formatTime"
+    ],
+    "@btpanel/core/format": [
+      "getByteUnit"
+    ],
+    "@btpanel/core/type": [
+      "isObject"
+    ],
+    "@btpanel/hooks": [
+      "useConfirm",
+      "useDataHandle",
+      "useDialog",
+      "useLoop",
+      "useMessage"
+    ],
+    "@btpanel/hooks/charts": [
+      "useChinaMapData",
+      "useECharts",
+      "useMapData"
+    ],
+    "@btpanel/hooks/tabs": [
+      "useTabs"
+    ],
+    "@btpanel/panel-business/api/global": [
+      "getFileContent",
+      "getPluginFindInfo",
+      "saveFileBody"
+    ],
+    "@btpanel/panel-business/hooks/form/form-item": [
+      "FormButton",
+      "FormCheckbox",
+      "FormCustom",
+      "FormGroup",
+      "FormHelp",
+      "FormInput",
+      "FormItemCustom",
+      "FormRadio",
+      "FormRadioButton",
+      "FormSelect",
+      "FormSwitch",
+      "FormTextarea"
+    ],
+    "@btpanel/panel-business/hooks/router-tabs": [
+      "useRouterTabs"
+    ],
+    "@btpanel/panel-business/hooks/tools": [
+      "useAllTable",
+      "useAxios",
+      "useBatch",
+      "useDynamicTable",
+      "useForm",
+      "usePage",
+      "useRefresh",
+      "useSearch",
+      "useTable"
+    ],
+    "@btpanel/panel-business/hooks/tools/table/column": [
+      "useBatchStatus",
+      "useCheckbox",
+      "useOperate",
+      "useSwitch"
+    ],
+    "@btpanel/panel-business/runtime": [
+      "panelBusinessRouter"
+    ],
+    "@btpanel/panel-business/services/popup": [
+      "productPaymentDialog"
+    ],
+    "@btpanel/panel-business/store/global": [
+      "useGlobalStore"
+    ],
+    "@btpanel/runtime/storage": [
+      "getCookie",
+      "setCookie"
+    ],
+    "@btpanel/runtime/theme": [
+      "hexToRgb"
+    ],
+    "@btpanel/ui/data/bt-echart/runtime": [
+      "loadEchartsRuntime"
+    ],
+    "@btpanel/ui/form": [
+      "BtCheckbox",
+      "BtFormItem",
+      "BtInput",
+      "BtRadio",
+      "BtSelect",
+      "BtSwitch"
+    ],
+    "@btpanel/ui/other": [
+      "BtDivider"
+    ],
+    "@vueuse/core": [
+      "useDark",
+      "useDebounceFn",
+      "useElementSize"
+    ],
+    "element-plus": [
+      "ElButton",
+      "ElCheckbox",
+      "ElFormItem",
+      "ElInput",
+      "ElOption",
+      "ElPopover",
+      "ElRadio",
+      "ElRadioGroup",
+      "ElScrollbar",
+      "ElSelect",
+      "ElSwitch",
+      "ElTag",
+      "ElTooltip"
+    ],
+    "vue": [
+      "Fragment",
+      "computed",
+      "createBlock",
+      "createCommentVNode",
+      "createElementBlock",
+      "createElementVNode",
+      "createSlots",
+      "createStaticVNode",
+      "createTextVNode",
+      "createVNode",
+      "defineAsyncComponent",
+      "defineComponent",
+      "getCurrentInstance",
+      "h",
+      "isRef",
+      "mergeModels",
+      "mergeProps",
+      "normalizeClass",
+      "normalizeStyle",
+      "onMounted",
+      "onUnmounted",
+      "openBlock",
+      "reactive",
+      "ref",
+      "renderList",
+      "renderSlot",
+      "resolveComponent",
+      "resolveDirective",
+      "resolveDynamicComponent",
+      "toDisplayString",
+      "toRef",
+      "toRefs",
+      "unref",
+      "useModel",
+      "vShow",
+      "watch",
+      "withCtx",
+      "withDirectives",
+      "withKeys"
+    ]
+  },
+  "requiredSharedDefaults": [
+    "@btpanel/hooks/charts/data/world",
+    "@btpanel/panel-business/components/extension/bt-editor",
+    "@btpanel/panel-business/components/extension/bt-log/index.vue",
+    "@btpanel/panel-business/components/other/bt-ai-tips/index.vue",
+    "@btpanel/panel-extension-runtime"
+  ],
+  "requiredSharedVersions": {
+    "@btpanel/core": "workspace:*",
+    "@btpanel/core/date": "workspace:*",
+    "@btpanel/core/format": "workspace:*",
+    "@btpanel/core/type": "workspace:*",
+    "@btpanel/hooks": "workspace:*",
+    "@btpanel/hooks/charts": "workspace:*",
+    "@btpanel/hooks/charts/data/world": "workspace:*",
+    "@btpanel/hooks/tabs": "workspace:*",
+    "@btpanel/panel-business/api/global": "workspace:*",
+    "@btpanel/panel-business/components/extension/bt-editor": "workspace:*",
+    "@btpanel/panel-business/components/extension/bt-log/index.vue": "workspace:*",
+    "@btpanel/panel-business/components/other/bt-ai-tips/index.vue": "workspace:*",
+    "@btpanel/panel-business/hooks/form/form-item": "workspace:*",
+    "@btpanel/panel-business/hooks/router-tabs": "workspace:*",
+    "@btpanel/panel-business/hooks/tools": "workspace:*",
+    "@btpanel/panel-business/hooks/tools/table/column": "workspace:*",
+    "@btpanel/panel-business/runtime": "workspace:*",
+    "@btpanel/panel-business/services/popup": "workspace:*",
+    "@btpanel/panel-business/store/global": "workspace:*",
+    "@btpanel/panel-extension-runtime": "workspace:*",
+    "@btpanel/runtime/storage": "workspace:*",
+    "@btpanel/runtime/theme": "workspace:*",
+    "@btpanel/ui/base": "workspace:*",
+    "@btpanel/ui/data": "workspace:*",
+    "@btpanel/ui/data/bt-echart/runtime": "workspace:*",
+    "@btpanel/ui/form": "workspace:*",
+    "@btpanel/ui/other": "workspace:*",
+    "@vueuse/core": "^14.3.0",
+    "element-plus": "^2.14.0",
+    "element-plus/es": "^2.14.0",
+    "pinia": "^3.0.0",
+    "vue": "^3.5.0"
+  },
+  "builtAt": "2026-06-04T10:27:19.389Z"
+}

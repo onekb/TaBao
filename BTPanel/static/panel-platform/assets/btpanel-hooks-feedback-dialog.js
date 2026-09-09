@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./dialog.js?v=VERSION_NUMBER";export{n as DialogHost,e as closeAllDialog,t as useDialog};

@@ -1,0 +1,1 @@
+import{fr as e,pr as t}from"./global.js?v=VERSION_NUMBER";export{e as GLOBAL_STORE,t as useGlobalStore};

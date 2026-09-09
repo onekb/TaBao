@@ -1,0 +1,1 @@
+import{it as e,ot as t,st as n}from"./btpanel-panel-business-services-lib.js?v=1780568589";var r={...t,pluginInstallDialog:e,productPaymentDialog:n},i=`@btpanel/panel-business/services/popup`,a=r;export{i as name,a as provider};

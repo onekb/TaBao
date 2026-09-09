@@ -1,0 +1,1 @@
+import{A as e,H as t,R as n,V as r,_ as i,c as a,d as o,f as s,i as c,n as l,z as u}from"./vueuse-lib.js?v=1780568589";var d={...l,isClient:e,tryOnScopeDispose:n,unrefElement:c,useDebounceFn:u,useThrottleFn:r,useEventListener:s,useResizeObserver:i,useDark:a,useElementSize:o,useTimeoutFn:t},f=`@vueuse/core`,p=d;export{f as name,p as provider};

@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./btpanel-runtime-monaco-editor-lib.js?v=1780568589";var i={...e,installPanelSharedMonacoEnvironment:t,loadPanelSharedMonaco:n,createPanelMonacoWorkerFactory:r},a=`@btpanel/runtime/monaco-editor`,o=i;export{a as name,o as provider};

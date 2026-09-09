@@ -1,0 +1,1 @@
+import{X as e,Z as t}from"./btpanel-panel-business-components-lib.js?v=1780568589";var n={...t,default:e},r=`@btpanel/panel-business/components/business/bt-product-preview/index.vue`,i=n;export{r as name,i as provider};

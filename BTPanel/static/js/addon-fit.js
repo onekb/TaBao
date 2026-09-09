@@ -1,0 +1,1 @@
+import{n as e,t}from"./xterm-addon-fit-lib.js?v=1780568589";var n={...t,FitAddon:e},r=`@xterm/addon-fit`,i=n;export{r as name,i as provider};

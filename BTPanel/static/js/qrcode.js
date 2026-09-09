@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime.js?v=1780568589";import{j as t}from"./btpanel-hooks-lib.js?v=1780568589";var n=e(t()),r={...n,default:n.default},i=`qrcode`,a=r;export{i as name,a as provider};

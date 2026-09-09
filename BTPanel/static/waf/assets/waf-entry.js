@@ -1,0 +1,1 @@
+import{_ as e}from"./waf-runtime.js?v=1780568589";var t=`btpanel-waf-extension-v1`,n=`waf`,r=e;export{r as default,n as name,t as protocol};

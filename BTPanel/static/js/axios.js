@@ -1,0 +1,1 @@
+import{G as e,J as t,W as n,Y as r}from"./btpanel-request-lib.js?v=1780568589";var i={...n,mountErrorCollector:r,useAxios:t,createAxios:e},a=`@btpanel/request/axios`,o=i;export{a as name,o as provider};

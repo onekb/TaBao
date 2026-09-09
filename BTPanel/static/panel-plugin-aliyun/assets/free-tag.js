@@ -1,0 +1,1 @@
+import{a as e,i as t,o as n,p as r}from"./vue.js?v=VERSION_NUMBER";import{t as i}from"./_plugin-vue_export-helper.js?v=VERSION_NUMBER";var a={},o={class:`free-tag`};function s(i,a){return r(),t(`span`,o,[...a[0]||=[e(`span`,{class:`ali-icon`},null,-1),n(`阿里云专版免费 `,-1)]])}var c=i(a,[[`render`,s],[`__scopeId`,`data-v-9f416637`]]);export{c as default};

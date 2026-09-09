@@ -1,0 +1,1 @@
+import{a as e,c as t,i as n,l as r,o as i}from"./vue-router-lib.js?v=1780568589";var a={...n,useRoute:t,useRouter:r,onBeforeRouteLeave:e,onBeforeRouteUpdate:i},o=`vue-router`,s=a;export{o as name,s as provider};

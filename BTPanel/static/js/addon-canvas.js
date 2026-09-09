@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime.js?v=1780568589";import{t}from"./xterm-addon-canvas-lib.js?v=1780568589";var n=e(t()),r={...n,CanvasAddon:n.CanvasAddon},i=`@xterm/addon-canvas`,a=r;export{i as name,a as provider};

@@ -1,0 +1,97 @@
+{
+  "protocol": "btpanel-plugin-esm-v1",
+  "name": "panel_plugin_tencent",
+  "version": "0.0.0",
+  "entry": "assets/plugin-entry.js?v=2026-06-04T10%3A27%3A17.350Z",
+  "styles": [
+    "assets/plugin-tencent.css?v=2026-06-04T10%3A27%3A17.350Z"
+  ],
+  "minPanelVersion": "10.0.0",
+  "platformApiVersion": "1",
+  "requiredCapabilities": [
+    "core",
+    "request",
+    "runtime",
+    "feedback.message",
+    "feedback.dialog",
+    "feedback.confirm",
+    "ui.base",
+    "ui.data",
+    "ui.form",
+    "ui.feedback",
+    "ui.other",
+    "panel-business.hooks-tools",
+    "panel-business.services-popup",
+    "panel-extension-runtime"
+  ],
+  "requiredPlatformExposes": [
+    "panel_platform/core",
+    "panel_platform/runtime",
+    "panel_platform/runtime/theme",
+    "panel_platform/runtime/storage",
+    "panel_platform/request",
+    "panel_platform/hooks",
+    "panel_platform/hooks/feedback/dialog",
+    "panel_platform/hooks/charts",
+    "panel_platform/hooks/charts-data-world",
+    "panel_platform/vue-kit/directives",
+    "panel_platform/panel-business/runtime",
+    "panel_platform/panel-business/router",
+    "panel_platform/panel-business/store",
+    "panel_platform/panel-business/store-global",
+    "panel_platform/panel-business/hooks-tools",
+    "panel_platform/panel-business/hooks-form-item",
+    "panel_platform/panel-business/hooks-router-tabs",
+    "panel_platform/panel-business/api-global",
+    "panel_platform/panel-business/components-other",
+    "panel_platform/panel-business/bt-ai-tips",
+    "panel_platform/panel-business/services-popup",
+    "panel_platform/ui/base",
+    "panel_platform/ui/data",
+    "panel_platform/ui/form",
+    "panel_platform/ui/feedback",
+    "panel_platform/ui/navigation",
+    "panel_platform/ui/other",
+    "panel_platform/panel-extension-runtime"
+  ],
+  "sharedContractVersion": "1",
+  "requiredSharedPackages": [
+    "@btpanel/panel-extension-runtime",
+    "element-plus/es",
+    "vue"
+  ],
+  "requiredSharedExports": {
+    "vue": [
+      "Fragment",
+      "createBlock",
+      "createCommentVNode",
+      "createElementBlock",
+      "createElementVNode",
+      "createTextVNode",
+      "createVNode",
+      "defineComponent",
+      "isRef",
+      "normalizeClass",
+      "normalizeStyle",
+      "openBlock",
+      "renderList",
+      "resolveComponent",
+      "resolveDirective",
+      "toDisplayString",
+      "unref",
+      "vShow",
+      "withCtx",
+      "withDirectives",
+      "withKeys"
+    ]
+  },
+  "requiredSharedDefaults": [
+    "@btpanel/panel-extension-runtime"
+  ],
+  "requiredSharedVersions": {
+    "@btpanel/panel-extension-runtime": "workspace:*",
+    "element-plus/es": "^2.14.0",
+    "vue": "^3.5.0"
+  },
+  "builtAt": "2026-06-04T10:27:17.350Z"
+}

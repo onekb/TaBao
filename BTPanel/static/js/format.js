@@ -1,0 +1,1 @@
+import{c as e,l as t}from"./btpanel-core-lib.js?v=1780568589";var n={...e,getByteUnit:t},r=`@btpanel/core/format`,i=n;export{r as name,i as provider};

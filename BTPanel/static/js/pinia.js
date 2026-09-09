@@ -1,0 +1,1 @@
+import{i as e,n as t,o as n,t as r}from"./pinia-lib.js?v=1780568589";var i={...e,createPinia:r,defineStore:t,storeToRefs:n},a=`pinia`,o=i;export{a as name,o as provider};

@@ -1,0 +1,1 @@
+import{K as e,q as t}from"./btpanel-hooks-lib.js?v=1780568589";var n={...e,useTabs:t},r=`@btpanel/hooks/tabs`,i=n;export{r as name,i as provider};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./xterm-addon-web-links-lib.js?v=1780568589";var n={...e,WebLinksAddon:t},r=`@xterm/addon-web-links`,i=n;export{r as name,i as provider};

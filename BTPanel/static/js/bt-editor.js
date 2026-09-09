@@ -1,0 +1,1 @@
+import{A as e,k as t}from"./btpanel-panel-business-components-lib.js?v=1780568589";var n={...e,default:t},r=`@btpanel/panel-business/components/extension/bt-editor`,i=n;export{r as name,i as provider};

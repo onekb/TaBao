@@ -1,0 +1,1 @@
+import{g as e}from"./shared.js?v=1780568589";import{t}from"./src.js?v=1780568589";var n={...t,panelSharedContractVersion:`1`,panelSharedPackages:e},r=`@btpanel/panel-platform-contract`,i=n;export{r as name,i as provider};

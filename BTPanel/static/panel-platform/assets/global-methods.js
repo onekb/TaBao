@@ -1,0 +1,1 @@
+var e={},t=t=>{e={...e,...t}},n=(t,n)=>{e[t]=n},r=t=>e[t],i=()=>({...e}),a=t=>{if(!t){e={};return}for(let n of t)delete e[n]};export{n as a,t as i,r as n,i as r,a as t};

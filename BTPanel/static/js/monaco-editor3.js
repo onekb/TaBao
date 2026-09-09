@@ -1,0 +1,1 @@
+import{Bt as e,Ft as t,Ht as n,It as r,Lt as i,Nt as a,Pt as o,Rt as s,Vt as c,zt as l}from"./monaco-editor-lib.js?v=1780568589";var u={...a,editor:c,languages:n,Uri:e,Range:s,Position:i,Selection:l,MarkerSeverity:r,KeyCode:o,KeyMod:t},d=`monaco-editor`,f=u;export{d as name,f as provider};

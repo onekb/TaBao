@@ -1,0 +1,1 @@
+import{kt as e,t}from"./btpanel-panel-business-store-lib.js?v=1780568589";var n={...t,useGlobalStore:e},r=`@btpanel/panel-business/store`,i=n;export{r as name,i as provider};

@@ -1,0 +1,1 @@
+import{H as e}from"./_virtual_mf___mfe_internal__panel_platform__loadShare__element_mf_2_plus__loadShare__.mjs.js?v=VERSION_NUMBER";var t=e;export{t};

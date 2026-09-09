@@ -1,0 +1,1 @@
+import{t as e}from"./bt-ai-tips.js?v=VERSION_NUMBER";export{e as default};
